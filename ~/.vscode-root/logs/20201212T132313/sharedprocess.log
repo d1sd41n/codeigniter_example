@@ -1,0 +1,4 @@
+[2020-12-12 13:23:17.406] [sharedprocess] [info] main {"machineId":"b99ffb6ee7f6a3031cffdb6a65cd341cfb29115ed0f3123640e59052de3bb567","windowId":2}
+[2020-12-12 13:23:17.448] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/var/www/html/codeigniter/~/.vscode-root/User/snippets'
+[2020-12-12 13:23:17.767] [sharedprocess] [info] Deleted from disk wscats.html-snippets /home/dan/.vscode/extensions/wscats.html-snippets-1.0.5
+[2020-12-12 13:23:57.427] [sharedprocess] [info] Starting to clean up unused language packs.
