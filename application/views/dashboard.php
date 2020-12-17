@@ -1,15 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Dashboard</h1>
-    <?php if($dat = $this->session->flashdata("msg")):?>
-        <p><?= $dat ?></p>
-    <?php endif ?>
-    <a href="<?=base_url('login/logout')?>">Cerrar sesion</a>
-</body>
-</html>
+    
+    <?= $head ?>
+
+    <?= $nav ?> 
+    <div class="container-fluid">
+        <div class="row">
+            <?= $aside ?>
+
+            <!-- CONTENT -->
+            <main class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                    <!-- <h1 class="is-title">Aqui va el contenido</h1> -->
+                <?= $content ?>
+            </main>   
+
+        </div>
+    </div>
+    <?= $footer ?>
